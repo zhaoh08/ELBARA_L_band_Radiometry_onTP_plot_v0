@@ -29,9 +29,9 @@ The dataset is fully described in a Nature Scientific Data Descriptor https://ww
 	 
 	-Read in situ automtic weather station measurements, involving air temperature (Tair), precipitation amount, etc,.
 	
-	  -Process radiation data to get surface albedo data, which is used to reflect the probability of snow events.
+	   - Process radiation data to get surface albedo data, which is used to reflect the probability of snow events.
 	  
-	  -Process longwave raidation data to get ground temperature (TG) data.
+	   - Process longwave raidation data to get ground temperature (TG) data.
 	  
 	-Read in situ soil moisture and soil temperature (SMST) data.
 	
