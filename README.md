@@ -37,4 +37,4 @@ The dataset is fully described in a Nature Scientific Data Descriptor https://ww
 	
 	-Plot ELBARA TB data together with environmental variable (i.e., Albedo, SMST, TG, Tair) data. 
 	
-	 The interpretation of information from the plotted figure can be found at the beginning of this notebook.  
+	  The interpretation of information from the plotted figure can be found at the beginning of this notebook.  
