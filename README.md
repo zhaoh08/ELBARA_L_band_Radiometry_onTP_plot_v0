@@ -15,15 +15,26 @@ The dataset is fully described in a Nature Scientific Data Descriptor https://ww
 
 
 - The code type cell shows the scripts for computation and plotting. 
-  -Package install: install all the required Python packages for computation and plotting.   
+
+  -Package install: install all the required Python packages for computation and plotting. 
+  
   -Download dataset from published repository: 1) Type dataset id and base URL; 2) Download data into your folder.
+  
   -Fill-in time period for plotting.
+  
   -Data processing
+  
 	-Read ELBARA TB file. In the example,the file 'ELBARA-III dataset-2016-2017ELBARA-III TB.csv' contains two times of header information, 
 	 so the script first splits this .csv file into two files for following read for the above filled-in period. 
+	 
 	-Read in situ automtic weather station measurements, involving air temperature (Tair), precipitation amount, etc,.
+	
 	  -Process radiation data to get surface albedo data, which is used to reflect the probability of snow events.
+	  
 	  -Process longwave raidation data to get ground temperature (TG) data.
+	  
 	-Read in situ soil moisture and soil temperature (SMST) data.
+	
 	-Plot ELBARA TB data together with environmental variable (i.e., Albedo, SMST, TG, Tair) data. 
+	
 	 The interpretation of information from the plotted figure can be found at the beginning of this notebook.  
